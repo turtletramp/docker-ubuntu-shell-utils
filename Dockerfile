@@ -18,6 +18,7 @@ RUN apt-get update -q && \
         zip \
         unzip \
         p7zip \
+	p7zip-full \
     && apt-get clean
 
 
